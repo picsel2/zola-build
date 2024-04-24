@@ -1,0 +1,7 @@
+name: "Zola build"
+description: "Builds a static web page using zola"
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/getzola/zola:v0.18.0'
+  args:
+    - build
